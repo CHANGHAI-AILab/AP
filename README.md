@@ -337,51 +337,6 @@ python test_pipeline.py
 
 Tests create synthetic data and verify all pipeline components.
 
-## ⚠️ Troubleshooting
-
-### Issue 1: Out of Memory
-
-**Solution**: Reduce parallel processes
-
-```python
-# Modify in scripts
-pool = Pool(5)  # Change from 10 to 5
-```
-
-### Issue 2: LASSO Convergence Warning
-
-**Solution**: Increase max iterations
-
-```python
-lasso = LassoCV(..., max_iter=50000, ...)
-```
-
-### Issue 3: CUDA Out of Memory
-
-**Solution**: Reduce batch size
-
-```python
-# In dinov2_feature.py
-val_dataloader = DataLoader(..., batch_size=32, ...)  # Change from 128 to 32
-```
-
-See [QUICK_START.md](QUICK_START.md) for more issues
-
-## 📄 Citation
-
-If you use this code, please cite our paper:
-
-```bibtex
-@article{your_paper_2024,
-  title={Your Paper Title},
-  author={Your Name and Others},
-  journal={Journal Name},
-  year={2024},
-  volume={XX},
-  pages={XXX-XXX},
-  doi={XX.XXXX/XXXXX}
-}
-```
 
 ## 🤝 Contributing
 
@@ -394,9 +349,6 @@ For questions or suggestions, please contact:
 - Open an issue: [GitHub Issues](https://github.com/CHANGHAI-AILab/AP)
 - Email: timchen91@aliyun.com
 
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
@@ -417,4 +369,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **⭐ If this project helps you, please give us a star!**
+
 
