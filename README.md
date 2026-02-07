@@ -391,8 +391,8 @@ Contributions are welcome! Please feel free to submit issues or pull requests.
 
 For questions or suggestions, please contact:
 
-- Open an issue: [GitHub Issues](https://github.com/your-username/your-repo/issues)
-- Email: your.email@example.com
+- Open an issue: [GitHub Issues](https://github.com/CHANGHAI-AILab/AP)
+- Email: timchen91@aliyun.com
 
 ## 📜 License
 
@@ -417,3 +417,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **⭐ If this project helps you, please give us a star!**
+
