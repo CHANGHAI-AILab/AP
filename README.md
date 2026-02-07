@@ -311,15 +311,6 @@ See [WORKFLOW_DIAGRAM.md](WORKFLOW_DIAGRAM.md) for detailed diagram
 - `evaluation_metrics.csv` - All metrics
 - `classification_report.csv` - Classification report
 
-## 🧪 Testing
-
-Run automated tests:
-
-```bash
-python test_pipeline.py
-```
-
-Tests create synthetic data and verify all pipeline components.
 
 
 ## 🤝 Contributing
@@ -353,6 +344,7 @@ For questions or suggestions, please contact:
 ---
 
 **⭐ If this project helps you, please give us a star!**
+
 
 
 
