@@ -62,14 +62,7 @@ Complete radiomics analysis pipeline for medical imaging, including feature extr
 ```bash
 pip install -r requirements.txt
 ```
-
-### 2. Test Pipeline
-
-```bash
-python test_pipeline.py
-```
-
-### 3. Run Complete Pipeline
+### 2. Run Complete Pipeline
 
 ```bash
 # Modify configuration file
@@ -79,7 +72,7 @@ cp config_example.json my_config.json
 python pipeline_full.py my_config.json
 ```
 
-### 4. Step-by-Step Execution
+### 3. Step-by-Step Execution
 
 ```bash
 # Step 1: Feature extraction
@@ -369,5 +362,6 @@ For questions or suggestions, please contact:
 ---
 
 **⭐ If this project helps you, please give us a star!**
+
 
 
